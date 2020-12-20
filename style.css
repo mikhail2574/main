@@ -280,16 +280,18 @@ a {
         justify-content: space-between;
         align-items: center;
         padding: 3.125vw 3.125vw;
-    .header img{
+    }
+    .header a{
         padding: 3.125vw 3.125vw;
+        width: 6.25vw;
+        height: 6.25vw;
     }
     }
     #logo{
         margin-top: -3.125vw;
-        height: 7.937vw;
+        height: 12vw;
         width: 43.750vw;
     }
-
   /* ------------------------------------ */
   /* ------------------------------------ */
   /* ------------------------------------ */
