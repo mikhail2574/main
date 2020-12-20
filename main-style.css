@@ -1,0 +1,126 @@
+body{
+    max-width: 320px;
+    margin: 0px;
+    font-family: "Gotham Pro";
+}
+.header{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#logo{
+    margin-top: -10px;
+}
+.section{
+    margin: 0px 5%;
+    border: 2px solid #61A036;
+    border-radius: 7px;
+    display: flex;
+}
+.section__input__search{
+    width: 90%;
+    border:none;
+    outline: none;
+    font-family: "Aladin";
+    font-size: 9px;
+}
+@font-face {
+    font-family: "Gotham Pro";
+    src: url(fonts/14078.ttf);
+}
+@font-face {
+    font-family: "Aladin";
+    src: url(fonts/Aladin-Regular.ttf);
+}
+.section__input__submit{
+    width: 47px;
+    height: 40px;
+    background: rgb(97,160,54,1);
+    border:none;
+    border-radius: 7px;
+    margin: -1px;
+    background-image: url(img/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.section__slider{
+    height: 150px;
+    margin-top: 7px;
+    background-image: url(img/bg_slider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section__link{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+section a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.main-font{
+    font-family: "Gotham Pro";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+.m30{
+    margin-top:30px;
+}
+.section__comment{
+    margin: 20px auto;
+    font-family: "Gotham Pro";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    max-width: 300px;
+}
+.section__more{
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    line-height: 13px;
+    /* green */
+    color: #61A036;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: 97,160,54,1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 500px;
+}
